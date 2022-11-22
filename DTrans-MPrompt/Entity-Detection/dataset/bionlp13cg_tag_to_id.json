@@ -1,0 +1,52 @@
+{
+    "ner": {
+        "B-Cell": 0,
+        "B-Cellular_component": 1,
+        "B-Gene_or_gene_product": 2,
+        "B-Organism": 3,
+        "B-Simple_chemical": 4,
+        "I-Cell": 5,
+        "I-Cellular_component": 6,
+        "I-Gene_or_gene_product": 7,
+        "I-Organism": 8,
+        "I-Simple_chemical": 9,
+        "B-LOC": 10,
+        "B-MISC": 11,
+        "B-ORG": 12,
+        "B-PER": 13,
+        "I-LOC": 14,
+        "I-MISC": 15,
+        "I-ORG": 16,
+        "I-PER": 17,
+        "O": 18
+    },
+    "span": {
+        "B": 0,
+        "I": 1,
+        "O": 2
+    },
+    "type": {
+        "Cell": 0,
+        "Cellular_component": 1,
+        "Gene_or_gene_product": 2,
+        "Organism": 3,
+        "Simple_chemical": 4,
+        "LOC": 5,
+        "MISC": 6,
+        "ORG": 7,
+        "PER": 8,
+        "O": 9
+    },
+    "template": {
+        "Cell": ["is the", "cell", "entity."],
+        "Cellular_component": ["is the", "component", "entity."],
+        "Gene_or_gene_product": ["is the", "gene", "entity."],
+        "Organism": ["is the", "organism", "entity."],
+        "Simple_chemical": ["is the", "chemical", "entity."],
+        "LOC": ["is the", "location", "entity."],
+        "MISC": ["is the", "miscellaneous", "entity."],
+        "ORG": ["is the", "organisation", "entity."],
+        "PER": ["is the", "person", "entity."],
+        "O": ["is the", "non", "entity."]
+    }
+}

@@ -1,0 +1,1 @@
+### The dir will contain BERT-Base that will be downloaded automatically.
